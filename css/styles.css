@@ -1,0 +1,29 @@
+      /* CSS styling for div elements */
+    
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    width: 100%;
+    }
+      
+    .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    border: 1px solid black;
+    }
+        
+    .cell:nth-child(6) {
+        background: #bcf74f; /* green */
+    }
+
+    
+      
+        
+
